@@ -1,0 +1,105 @@
+/* Body background */
+body {
+  background-color: #0000;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #e1ab95;
+}
+
+/* Links */
+a {
+  color: #2D5D7B;
+  text-decoration: none;
+}
+a:hover {
+  color: #D5ACA9;
+}
+
+/* page transition */
+li {
+transition: all 0.3s ease-in-out;
+}
+
+.active {
+background-color: #f2f2f2;
+color: #333;
+}
+
+/* image hover */
+.overlay-container {
+position: relative;
+transition: all 1s ease-in-out;
+margin-bottom: 50px;
+
+}
+
+.overlay-image {
+position: absolute;
+top: 0;
+left: 0;
+transition: opacity 0.5s ease-in-out;
+}
+
+.overlay-image:hover {
+opacity: 0;
+transition: opacity 1s ease;
+}
+
+
+
+
+/* Upper Left Logo */
+.logo-img{
+  width: 50px;
+}
+
+/* Header container */ 
+.container {
+  margin-top: 50px;
+}
+
+/* Buttons */
+.button-container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.button-container.hidden {
+  transform: translateY(10%);
+  transition: all 1s ease-in-out;
+}
+
+.p {
+  margin-bottom: 15px;
+}
+
+.btn {
+  color: #e1ab95;
+  background-color:white;
+  border-color: #2D5D7B;
+  transition: background-color 1s ease-in-out, 
+  border-radius 1s ease-in-out;
+}
+
+.btn:hover {
+  color:#e1ab95;
+  background-color: #2D5D7B;
+  border-color: #2D5D7B;
+}
+
+/* Footer */
+.footer {
+  background-color: #2D5D7B;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+button, input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
